@@ -102,7 +102,7 @@ SOFTWARE.
 <hr>
 <cite>
 👨‍💻 Author: Tayyab Nasir
-GitHub: (Add your GitHub profile link here) 
-Website/Portfolio: (Add your website or portfolio link here)
+* **GitHub:** [Add your GitHub profile link here] 
+* **Website/Portfolio:** [Add your website or portfolio link here]
 </cite>
 </pre>
