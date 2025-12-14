@@ -1,7 +1,21 @@
 # aura.js
-✨ Aura.jsAura.js is a lightweight, blazing-fast, and deeply intuitive JavaScript Utility Library designed to infuse your web projects with an unparalleled level of dynamism and elegance. Stop writing verbose boilerplate and start building magic. Aura.js is here to streamline your development workflow and make every line of code a pleasure to write.🚀 Why Aura.js?In a world full of utility libraries, why choose Aura.js?⚡ Blazing Fast: Highly optimized internal functions ensure minimal performance overhead for high-speed execution.🧘 Intuitive API: Built with developer experience in mind, making complex tasks like DOM manipulation and asynchronous sequencing feel simple and declarative.📦 Lightweight: Minimal footprint (typically < 5kb gzipped) means quicker load times for your users.🛠️ Versatile: Packed with essential utilities for DOM interaction, array operations, function management, and robust asynchronous handling.You'll be shocked at how quickly you can achieve complex results!📦 Installation (Get Started in Seconds)Via npm (Recommended)Bashnpm install aura.js
-<p align="center"><button onclick="navigator.clipboard.writeText('npm install aura.js')">Copy npm command</button></p>Via CDNYou can include Aura.js directly in your HTML file via a CDN for instant use:HTML<script src="https://cdn.jsdelivr.net/npm/aura.js/dist/aura.min.js"></script>
-<p align="center"><button onclick="navigator.clipboard.writeText('<script src=&quot;https://cdn.jsdelivr.net/npm/aura.js/dist/aura.min.js&quot;></script>')">Copy CDN tag</button></p>💡 UsageOnce installed, you can import and use the utility functions in your project.ES Module ImportYou can import specific functions to keep your bundle small, or import the entire library object.JavaScriptimport { select, delay, mapAsync } from 'aura.js'; 
+<pre>
+✨ Aura.js is a lightweight, blazing-fast, and deeply intuitive JavaScript Utility Library designed to infuse your web projects with an unparalleled level of dynamism and elegance. Stop writing verbose boilerplate and start building magic. Aura.js is here to streamline your development workflow and make every line of code a pleasure to write.
+🚀 Why Aura.js?
+In a world full of utility libraries, why choose Aura.js?
+⚡ Blazing Fast: Highly optimized internal functions ensure minimal performance overhead for high-speed execution.
+🧘 Intuitive API: Built with developer experience in mind, making complex tasks like DOM manipulation and asynchronous sequencing feel simple and declarative.
+📦 Lightweight: Minimal footprint (typically < 5kb gzipped) means quicker load times for your users.
+🛠️ Versatile: Packed with essential utilities for DOM interaction, array operations, function management, and robust asynchronous handling.You'll be shocked at how quickly you can achieve complex results!
+📦 Installation (Get Started in Seconds)Via npm (Recommended)Bashnpm install aura.js
+<p align="center"><button onclick="navigator.clipboard.writeText('npm install aura.js')">
+    Copy
+</p>
+Via CDN You can include Aura.js directly in your HTML file via a CDN for instant use in HTML                                 <script src="https://cdn.jsdelivr.net/npm/aura.js/dist/aura.min.js"></script>
+<p align="center">
+<button onclick="navigator.clipboard.writeText('<script src=&quot;https://cdn.jsdelivr.net/npm/aura.js/dist/aura.min.js&quot;></script>')">Copy</button>
+</p>💡 
+    Usage Once installed, you can import and use the utility functions in your project. ES Module Import You can import specific functions to keep your bundle small, or import the entire library object. JavaScriptimport { select, delay, mapAsync } from 'aura.js'; 
 // OR import the entire library
 import Aura from 'aura.js';
 Example: DOM ManipulationAura.js makes selecting and manipulating elements incredibly simple and readable.JavaScript// Using the 'select' function (equivalent to document.querySelector)
@@ -25,9 +39,17 @@ async function performTask() {
 
     Aura.log('Task completed after 2 seconds.');
 }
-
 performTask();
-📖 API Reference (Key Functions)FunctionDescriptionExampleselect(selector)Alias for document.querySelector.select('.header')selectAll(selector)Alias for document.querySelectorAll.selectAll('li')on(el, event, handler)Attaches an event listener to an element.on(btn, 'click', fn)toggleClass(el, className)Toggles a class on an element.toggleClass(div, 'active')delay(ms)Returns a Promise that resolves after ms milliseconds.await delay(100)isEmail(str)Checks if a string is a valid email format.isEmail('test@a.co')mapAsync(arr, fn)Runs a map operation asynchronously (in parallel).mapAsync(urls, fetch)For a full list of features, including utilities for arrays, objects, and types, please refer to the Documentation.🤝 ContributingWe welcome contributions! Whether it's reporting a bug, suggesting a new feature, or submitting a pull request, your help is appreciated. Please see our CONTRIBUTING.md for guidelines on how to get started.📝 LicenseAura.js is open-source software licensed under the MIT License.1MIT License
+
+📖 API Reference (Key Functions) Function Description Example select(selector) Alias for document.querySelector.select('.header')selectAll(selector) 
+Alias for document.querySelectorAll.selectAll('li')on(el, event, handler)
+Attaches an event listener to an element.on(btn, 'click', fn) toggleClass(el, className) Toggles a class on an element.toggleClass(div, 'active')delay(ms)
+Returns a Promise that resolves after ms milliseconds.await delay(100)isEmail(str)
+Checks if a string is a valid email format.isEmail('test@a.co')mapAsync(arr, fn)
+Runs a map operation asynchronously (in parallel).mapAsync(urls, fetch)
+For a full list of features, including utilities for arrays, objects, and types, please refer to the Documentation.
+Contributing We welcome contributions! Whether it's reporting a bug, suggesting a new feature, or submitting a pull request, your help is appreciated. Please see our CONTRIBUTING.md for guidelines on how to get started.
+📝 License Aura.js is open-source software licensed under the MIT License.1MIT License
 
 Copyright (c) 2024 Tayyab Nasir
 
@@ -48,4 +70,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-👨‍💻 AuthorTayyab NasirGitHub: (Add your GitHub profile link here)Website/Portfolio: (Add your website or portfolio link here)
+👨‍💻 Author: Tayyab Nasir
+GitHub: (Add your GitHub profile link here) 
+Website/Portfolio: (Add your website or portfolio link here)
+</pre>
