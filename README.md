@@ -56,22 +56,18 @@ Aura.log('Task completed after 2 seconds.');
 performTask();
 </strong>
 <hr>
-<b>
-📖 API Reference
-</b>
-<strong>
-(Key Functions) Function Description Example
-</strong>
-<em>
-select(selector) Alias for document.querySelector.select('.header')selectAll(selector) 
-Alias for document.querySelectorAll.selectAll('li')
-on (el, event, handler)
-Attaches an event listener to an element.on(btn, 'click', fn) toggleClass(el, className) 
-Toggles a class on an element.toggleClass(div, 'active')delay(ms)
-Returns a Promise that resolves after ms milliseconds.await delay(100)isEmail(str)
-Checks if a string is a valid email format.isEmail('test@a.co')mapAsync(arr, fn)
-Runs a map operation asynchronously (in parallel).mapAsync(urls, fetch)
-</em>
+<b>📖 API Reference</b>
+
+    |(Key Functions) | Function | Description | Example
+    | :--- | | :--- | |:--- |
+    
+|`select(selector)`| Alias for `document.query()`|`Selector.select('.header')`|
+|`selectAll(selector)`| Alias for `document.querySelector()`|`All.selectAll('li')`|
+|`on (el, event, handler)`| Attaches an event listener to an element.|`on(btn, 'click', fn)`| 
+|`toggleClass(el, className)`| Toggles a class on an element. |`toggleClass(div, 'active')`|
+|`delay(ms)`| Returns a Promise that resolves after ms milliseconds. |`await delay(100)`|
+|`isEmail(str)`| Checks if a string is a valid email format. |`isEmail('test@a.co')`
+|`mapAsync(arr, fn)`| Runs a map operation asynchronously (in parallel) across an array. |`mapAsync(urls, fetch)`|
 <p>
 For a full list of features, including utilities for arrays, objects, and types, please refer to the Documentation.
 We welcome contributions! Whether it's reporting a bug, suggesting a new feature, or submitting a pull request, your help is appreciated. 
