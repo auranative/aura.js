@@ -18,8 +18,13 @@ Bash: npm install aura.js
 <p align="center"><button onclick="navigator.clipboard.writeText('npm install aura.js')"></button></p>        
 Via CDN You can include Aura.js directly in your HTML file via a CDN for instant use in HTML
         </strong>
+    <h2>
+        CDN
+    </h2>
     <code>
+        <big>
 <script src="https://cdn.jsdelivr.net/npm/aura.js/dist/aura.min.js"></script>
+</big>
 </code>
  <p align="center"><button onclick="navigator.clipboard.writeText('<script src=&quot;https://cdn.jsdelivr.net/npm/aura.js/dist/aura.min.js&quot;></script>')"></button>
 </p>💡 
@@ -40,6 +45,7 @@ Aura.on(button, 'click', () => {
     // Show a console message
     Aura.log('Button clicked and class toggled!');
 });
+
 Example: Asynchronous Tasks Managing time and parallel async operations becomes effortless with delay and map Async.JavaScript import { delay } from 'aura.js';
 async function performTask() {
     Aura.log('Starting task...');
