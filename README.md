@@ -1,5 +1,5 @@
 # aura.js
-<pre><b>✨ Aura.js is a lightweight, blazing-fast, and deeply intuitive JavaScript Utility Library designed to infuse 
+<pre><b>✨ Aura.js is a lightweight, blazing-fast, and deeply intuitive JavaScript **Utility Library** designed to infuse 
 your web projects with an unparalleled level of dynamism and elegance. Stop writing verbose boilerplate and start building magic.
 </b>Aura.js is here to streamline your development workflow and make every line of code a pleasure to write.
 <strong>
@@ -7,18 +7,19 @@ your web projects with an unparalleled level of dynamism and elegance. Stop writ
 </strong>
 In a world full of utility libraries, why choose Aura.js?
     <b>
-⚡ Blazing Fast: Highly optimized internal functions ensure minimal performance overhead for high-speed execution.
-🧘 Intuitive API: Built with developer experience in mind, 
+* **⚡ Blazing Fast:** Highly optimized internal functions ensure minimal performance overhead for high-speed execution.
+* **🧘 Intuitive API:** Built with developer experience in mind, 
 making complex tasks like DOM manipulation and asynchronous sequencing feel simple and declarative.
-📦 Lightweight: Minimal footprint (typically < 5kb gzipped) means quicker load times for your users.
-🛠️ Versatile: Packed with essential utilities for DOM interaction, array operations, function management, 
+* **📦 Lightweight:** Minimal footprint (typically < 5kb gzipped) means quicker load times for your users.
+* **🛠️ Versatile: Packed** with essential utilities for DOM interaction, array operations, function management, 
 and robust asynchronous handling.You'll be shocked at how quickly you can achieve complex results!
 </b><hr>
 <strong>
-📦 Installation (Get Started in Seconds)
-Via npm (Recommended)
+## 📦 Installation (Get Started in Seconds)
+## Via npm (Recommended)
 <em><h2>NPM</h2></em>
-<b><i>Bash: npm install aura.js</i></b>
+```Bash
+npm install aura.js
 <p align="center"><button onclick="navigator.clipboard.writeText('npm install aura.js')"></button></p>        
 Via CDN You can include Aura.js directly in your HTML file via a CDN for instant use in HTML
 </strong>
@@ -32,7 +33,7 @@ Via CDN You can include Aura.js directly in your HTML file via a CDN for instant
 ES Module Import You can import specific functions to keep your bundle small, 
 or import the entire library object.
 <strong>
-JavaScript: import { select, delay, mapAsync } from 'aura.js'; 
+import { select, delay, mapAsync } from 'aura.js'; 
 // OR import the entire library
 import Aura from 'aura.js';
 Example: DOM Manipulation Aura.js makes selecting and manipulating elements incredibly simple and readable.
