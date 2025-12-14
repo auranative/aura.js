@@ -1,9 +1,8 @@
 # aura.js
-<pre>
-<b>✨ Aura.js is a lightweight, blazing-fast, and deeply intuitive JavaScript Utility Library designed to infuse your web projects with an unparalleled level of dynamism and elegance. Stop writing verbose boilerplate and start building magic.</b> Aura.js is here to streamline your development workflow and make every line of code a pleasure to write.
-    <strong>
+<pre><b>✨ Aura.js is a lightweight, blazing-fast, and deeply intuitive JavaScript Utility Library designed to infuse your web projects with an unparalleled level of dynamism and elegance. Stop writing verbose boilerplate and start building magic.</b> Aura.js is here to streamline your development workflow and make every line of code a pleasure to write.
+<strong>
 🚀 Why Aura.js?
-    </strong>
+</strong>
 In a world full of utility libraries, why choose Aura.js?
     <b>
 ⚡ Blazing Fast: Highly optimized internal functions ensure minimal performance overhead for high-speed execution.
@@ -11,25 +10,20 @@ In a world full of utility libraries, why choose Aura.js?
 📦 Lightweight: Minimal footprint (typically < 5kb gzipped) means quicker load times for your users.
 🛠️ Versatile: Packed with essential utilities for DOM interaction, array operations, function management, and robust asynchronous handling.You'll be shocked at how quickly you can achieve complex results!
 </b>
-        <strong>
+<strong>
 📦 Installation (Get Started in Seconds)
 Via npm (Recommended)
 Bash: npm install aura.js
 <p align="center"><button onclick="navigator.clipboard.writeText('npm install aura.js')"></button></p>        
 Via CDN You can include Aura.js directly in your HTML file via a CDN for instant use in HTML
-        </strong>
-    <h2>
-        CDN
-    </h2>
-    <code>
-        <big>
+</strong><h2>
+CDN
+</h2><code><big>
 <script src="https://cdn.jsdelivr.net/npm/aura.js/dist/aura.min.js"></script>
-</big>
-</code>
- <p align="center"><button onclick="navigator.clipboard.writeText('<script src=&quot;https://cdn.jsdelivr.net/npm/aura.js/dist/aura.min.js&quot;></script>')"></button>
-</p>💡 
-    Usage Once installed, you can import and use the utility functions in your project. ES Module Import You can import specific functions to keep your bundle small, or import the entire library object.
-    <strong>
+</big></code>
+ <p align="center"><button onclick="navigator.clipboard.writeText('<script src=&quot;https://cdn.jsdelivr.net/npm/aura.js/dist/aura.min.js&quot;></script>')"></button></p>💡 
+Usage Once installed, you can import and use the utility functions in your project. ES Module Import You can import specific functions to keep your bundle small, or import the entire library object.
+<strong>
     JavaScript: import { select, delay, mapAsync } from 'aura.js'; 
 // OR import the entire library
 import Aura from 'aura.js';
