@@ -23,9 +23,9 @@ Via npm (Recommended)
 Via CDN You can include Aura.js directly in your HTML file via a CDN for instant use in HTML
 </strong>
 <h2>CDN</h2>
-<code><big>
+<code><big><em>
 <script src="https://cdn.jsdelivr.net/npm/aura.js/dist/aura.min.js"></script>
-</big></code>
+</big></code><em>
 <p align="center"><button onclick="navigator.clipboard.writeText('<script src=&quot;https://cdn.jsdelivr.net/npm/aura.js/dist/aura.min.js&quot;></script>')"></button></p>
 <hr>
 💡Usage Once installed, you can import and use the utility functions in your project. 
@@ -74,7 +74,8 @@ Runs a map operation asynchronously (in parallel).mapAsync(urls, fetch)
 </em>
 <p>
 For a full list of features, including utilities for arrays, objects, and types, please refer to the Documentation.
-We welcome contributions! Whether it's reporting a bug, suggesting a new feature, or submitting a pull request, your help is appreciated. Please see our CONTRIBUTING.md for guidelines on how to get started.
+We welcome contributions! Whether it's reporting a bug, suggesting a new feature, or submitting a pull request, your help is appreciated. 
+Please see our CONTRIBUTING.md for guidelines on how to get started.
 </p>
 <hr>
 📝 License Aura.js is open-source software licensed under the MIT License.1MIT License
