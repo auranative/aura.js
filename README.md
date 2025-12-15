@@ -1,5 +1,6 @@
 # aura.js
-<pre><b>✨ Aura.js is a lightweight, blazing-fast, and deeply intuitive JavaScript **Utility Library** designed to infuse 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/license/MIT)
+<pre><b>✨ Aura.js is a lightweight, blazing-fast, and deeply intuitive JavaScript **Multi-Modal Web Engine** designed to infuse 
 your web projects with an unparalleled level of dynamism and elegance. Stop writing verbose boilerplate and start building magic.
 </b>Aura.js is here to streamline your development workflow and make every line of code a pleasure to write.
 <strong>
@@ -10,7 +11,7 @@ In a world full of utility libraries, why choose Aura.js?
 * **⚡ Blazing Fast:** Highly optimized internal functions ensure minimal performance overhead for high-speed execution.
 * **🧘 Intuitive API:** Built with developer experience in mind, 
 making complex tasks like DOM manipulation and asynchronous sequencing feel simple and declarative.
-* **📦 Lightweight:** Minimal footprint (typically < 5kb gzipped) means quicker load times for your users.
+* **📦 Lightweight:** Minimal footprint (typically < 12kb gzipped) means quicker load times for your users.
 * **🛠️ Versatile: Packed** with essential utilities for DOM interaction, array operations, function management, 
 and robust asynchronous handling.You'll be shocked at how quickly you can achieve complex results!
 </b><hr>
