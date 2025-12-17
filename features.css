@@ -1,0 +1,55 @@
+*{
+    margin: auto;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.aura-announcement-bar{
+    background: linear-gradient(
+        90deg,
+        #8b00ff,
+        #00ffea,
+        #00ff9d
+    );
+    background-size:400% 400%;
+    animation:gradientshift 60s ease infinite;
+    padding: 1rem 0;
+    text-align: center;
+    font-weight: 700;
+color: black;
+text-shadow: 0 0 15px rgba(0,0,0,0.6);
+overflow: hidden;
+width: 100%;
+position: relative;
+font-size: 1rem; 
+font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+height:40px;
+}
+@keyframes gradientshift {
+0%,100%{
+    background-position: 0% 50%;
+}
+50%{
+    background-position: 100% 50%;
+}
+}
+.aura-announcement-bar .tagline{
+position: absolute;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+width: 90%;
+opacity: 0;
+transition: opacity 1s ease;
+pointer-events: none;
+}
+.aura-announcement-bar .tagline.active{
+    opacity: 1;
+}
