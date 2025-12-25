@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Stack+Sans+Headline:wght@200..700&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Stack+Sans+Headline:wght@200..700&display=swap" rel="stylesheet">
 </head>
 <body>
         <div class="aura-announcement-bar" id="announcementBar">
@@ -31,95 +31,153 @@ Animate the Future - Lighter Than Air.
 Animate Like God.Weigh Like Nothing. 
             </span> 
     </div>
-<div class="container">
+       <div class="container">
+        <div class="navbar">
+        <div class="logo">
+            <h4>
+AURA
+            </h4>
+        </div>
+        <div class="center">
+            <a href="index.html">
+Home
+            </a>
+            <a href="..../docs/index.html">
+                Docs
+            </a>
+            <a href="features.html">
+Features
+            </a>
+            <a href="#">
+Pricing
+            </a>
+            <a href="#">
+Contact
+            </a>
+        </div>
+        <div class="buttons1">
+            <button class="btn1" onclick="window.location.href='#;'" type="button">
+                Get Aura Pro
+            </button>
+        </div>
+        </div>
+    </div>
+<div class="container1">
     <h1>
         Aura.js Features
     </h1>
+    <div class="paragraph">
     <p>
         Aura.js - the 12KB ultra-lightweight animation library with zero dependencies. Pure vanilla JS magic for butter-smooth 60 FPS on any device.
     </p>
-    <h2>
+    </div>
+<h2>
 Current Core Features
     </h2>
     <p class="para1">
         These are available right now - all chainable, GPU-accelerated where possible.
     </p>
-    <h3 class="h31">
+    <div class="card-grid">
+    <div class="glass-card">
+    <h3>
 Glow & Float
     </h3>
-<span class="span1">
+<span>
 - Neon glow and gentle floating motion
 </span>
-    <h3 class="h32">
+    </div>
+    <div class="glass-card">
+    <h3>
         Orbit & Parallax
     </h3>
-<span class="span2">
+<span>
 - 3D orbital paths and scroll depth
 </span>
-    <h3 class="h33">
+    </div>
+    <div class="glass-card">
+    <h3>
         Scroll Triggers
     </h3>
-<span class="span3">
+<span>
 - Animate on scroll viewport
 </span>
-    <h3 class="h34">
+    </div>
+    <div class="glass-card">
+    <h3>
         Auto-Hover Effects
     </h3>
-<span class="span4">
+<span>
 - Automatic animations on enter
 </span>
-    <h3 class="h35">
+    </div>
+    <div class="glass-card">
+    <h3>
         Gyro & Device Control
     </h3>
-<span class="span5">
+<span>
 - Tilt-to-move and gyro parallax using native DeviceOrientation API
 </span>
-    <h3 class="h36">
+    </div>
+    <div class="glass-card">
+    <h3>
         Voice Command
     </h3>
-<span class="span6">
+<span>
 - Speak to trigger animation with built-in Web Speech API
 </span>
-    <h3 class="h37">
+    </div>
+    <div class="glass-card">
+    <h3>
         Mood Detection
     </h3>
-<span class="span7">
+<span>
 - Basic emotion-based triggers via lightweight webcam pattern analysis
 </span>
-    <h3 class="h38">
+    </div>
+    <div class="glass-card">
+    <h3>
         Soul Detection
     </h3>
-<span class="span8">
+<span>
 - Anti-bot human verification through subtle interaction pattern
 </span>
-    <h3 class="h39">
+    </div>
+    <div class="glass-card">
+    <h3>
         E-commerce Automation
     </h3>
-<span class="span9">
+<span>
 - Fly-to-cart, price pulse, auto-hover for product cards
 </span>
-    <h3 class="h40">
+    </div>
+    <div class="glass-card">
+    <h3>
         Built-in WebGL/WebGPU Support
     </h3>
-<span class="span10">
+<span>
 - Native GPU acceleration support for advanced 3D and effects
 </span>
-    <h3 class="h41">
+    </div>
+    <div class="glass-card">
+<h3>
 Timeline System
 </h3>
-<div class="span11">
+<span>
 - Sequence animations with delays and overlays
 (<em>
     timeline().add(effect).play()
 </em>)
-</div>
-<h3 class="h42">
+</span>
+    </div>
+    <div class="glass-card">
+<h3>
 Presets System
 </h3>
-<div class="span12">
+<span>
 - Ready-made animation combos (<em>
     presets('heroEntrance')
 </em>)
+</span>
 </div>
 </div>
 </div>
@@ -127,14 +185,176 @@ Presets System
     <p class="para2">
         All chainable:
         <br/>
-        aura('hero').glow('80').gyroControl().voiceCommand().orbit(10);
+        aura('hero').glow('80').gyroControl().voiceCommand().timeline().add('.card','float').play();
     </p>
 </div>
-
-    
+<div class="future-additions">
+    <div class="card-grid-1">
+<h5>
+Future Additions (Tiny & Manageable - Total < 15 KB Added )
+</h5>
+<p class="para3">
+    These 15 planned features will stay under 15 KB gzipped combined, using only native browser APIs - no external dependencies, no bloat.
+</p>
+<div class="glass-card">
+    <h3>
+Stagger Animation
+    </h3>
+    <span>
+- Sequential delay across multiple elements <b>(stagger(100))</b>
+    </span>
+</div>
+<div class="glass-card">
+    <h3>
+Loop Control
+    </h3>
+    <span>
+- Infinite or finite repeats (loops(true) or loop(5))
+    </span>
+</div>
+<div class="glass-card">
+    <h3>
+Easing Presets
+    </h3>
+    <span>
+- Built-in curves like bounces, elastic, easeInOut (ease('bounce'))
+    </span>
+</div>
+<div class="glass-card">
+<h3>
+Keyframe Builder
+</h3>
+<span>
+- Multi-step custom animations (Keyframes({0:scale (1),
+50: rotate(180)
+}))
+</span>
+</div>
+<div class="glass-card">
+<h3>
+Hover State
+</h3>
+<span>
+- Dedicated hover trigger (onHover(in,out))
+</span>
+</div>
+<div class="glass-card">
+<h3>
+Click Trigger
+</h3>
+<span>
+- Animate on click (onClick(effect))
+</span>
+</div>
+<div class="glass-card">
+<h3>
+Viewport Once
+</h3>
+<span>
+- Trigger only once when in view (enterOnce())
+</span>
+</div>
+<div class="glass-card">
+<h3>
+Random Variation
+</h3>
+<span>
+- Subtle randomness for organic feel (random(50))
+</span>
+</div>
+<div class="glass-card">
+<h3>
+Color Pulse
+</h3>
+<span>
+- Smooth color transitions (pulseColor('#00ffea')) 
+</span>
+</div>
+<div class="glass-card">
+<h3>
+Text Reveal
+</h3>
+<span>
+- Typewriter or letter-by-letter reveal (revealText('slow'))
+</span>
+</div>
+<div class="glass-card">
+<h3>
+Particle Burst
+</h3>
+<span>
+- Lightweight canvas burst on trigger (burst(30))
+</span>
+</div>
+<div class="glass-card">
+<h3>
+SVG Path Morph
+</h3>
+<span>
+- Simple path animation (morph(toPath))
+</span>
+</div>
+<div class="glass-card">
+<h3>
+Spring Motion
+</h3>
+<span>
+- Natural bouncy physics (spring(tension:200))
+</span>
+</div>
+<div class="glass-card">
+<h3>
+Lazy Load
+</h3>
+<span>
+- Auto-initialize on scroll (lazy())
+</span>
+</div>
+<div class="glass-card">
+<h3>
+Cleanup Method
+</h3>
+<span>
+- Remove animations cleanly (destroy())
+</span>
+</div>
+    </div>
+</div>
+   <div class="footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <h3 class="h3">
+                    AURA
+                </h3>
+                <p class="para10">
+12KB. Infinite Magic.<br> Made with soul in Pakistan.
+                </p>
+            </div>
+            <div class="footer-links">
+                <a href="#">
+Docs
+                </a>
+                <a href="#">
+Github
+                </a>
+                <a href="#">
+Twitter
+                </a>
+                <a href="#">
+Contact
+                </a>
+            </div>
+            <div class="footer-right">
+                <p class="para11">
+&copy; 2025 Aura.js. MIT Licensed.
+                </p>
+                <p class="small">
+No AI was used in making this library.
+                </p>            
+            </div>
+        </div>
+    </div>
+<canvas id="particles-canvas"></canvas>
     <script src="src/features.js" defer></script>
 </body>
-
 </html>
-
-
