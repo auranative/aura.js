@@ -20,7 +20,7 @@ and robust asynchronous handling.You'll be shocked at how quickly you can achiev
 ## Via npm (Recommended)
 <em><h2>NPM</h2></em>
 ```Bash
-npm install aura.js
+ <em>npm install aura.js</em>
 <p align="center"><button onclick="navigator.clipboard.writeText('npm install aura.js')"></button></p>        
 Via CDN You can include Aura.js directly in your HTML file via a CDN for instant use in HTML
 </strong>
@@ -30,7 +30,7 @@ Via CDN You can include Aura.js directly in your HTML file via a CDN for instant
 </big></code><em>
 <p align="center"><button onclick="navigator.clipboard.writeText('<script src=&quot;https://cdn.jsdelivr.net/npm/aura.js/dist/aura.min.js&quot;></script>')"></button></p>
 <hr>
-💡Usage Once installed, you can import and use the utility functions in your project. 
+💡 Usage Once installed, you can import and use the utility functions in your project. 
 ES Module Import You can import specific functions to keep your bundle small, 
 or import the entire library object.
 <strong>
